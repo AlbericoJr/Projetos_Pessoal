@@ -111,6 +111,13 @@ form input[type="submit"]:hover{
     background: linear-gradient(to right, #4776E6, #8e54e9);
 }
 
+p{
+    font-size: 14px;
+    margin-top: 1rem;
+    padding-left: 3rem;
+
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -146,6 +153,10 @@ form input[type="submit"]:hover{
     background: linear-gradient(to right, #56a7f2, #468aca);
 }
 
-.footer .social-field.facebook{
+.footer .social-field.instagram{
     background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.footer .social-field.google{
+    background: linear-gradient(to right, #649dcc, #4f6792);
 }
