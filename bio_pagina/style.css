@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 99%;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(135deg, #1e2122, #697585);
+    color: #fff;
+    display: flex;
+    padding: 30px;
+}
+
+.bio{
+    background: rgb(54, 52, 52);
+    border-radius: 60px;
+    box-shadow: 0 10px 15px #db1111;
+    margin:  50px auto;
+    max-width: 440px;
+    padding: 90px;
+    text-align: center;
+}
+
+.bio-avatar{
+    width: 250px;
+    background: #f5f5f5;
+   /* border: 1px solid #e5e5e5;*/
+    border-radius: 990px;
+    padding: 2px;
+}
+
+.bio-name{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 10px 0 10px 0;
+}
+
+.bio_link{
+    display: inline-block;
+    margin: 10px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s linear;
+    background: white;
+}
+
+.bio_link:hover{
+    opacity: 1;
+}
+
+.bio_link + .bio_link{
+    margin-left: 5px;
+}
